@@ -1,4 +1,4 @@
-var ak_xhr_url = "https://app-collect.earlystageit.com/api/1/databases/your-application-key/collections/main/";
+var ak_xhr_url = "https://app-collect.earlystageit.com/api/1/databases/your-application-key/collections/data-type/";
 
 function ak_get_user_id() {
 	var userField = jQuery('a#signout.btn').html();
