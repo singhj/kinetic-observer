@@ -21,7 +21,7 @@ Notes:
 How to use the API
 ------------------
 
-An example file `app-kinetics.js` is available in the repository. *Include it in your project*.
+An example file `app-kinetics.js` is available in the repository. **Include it in your project but first replace your-application-key and data-type fields** provided by us.
 
 To monitor page loads, include these lines in your HTML files, immediately before or after your analytics snippet. 
 
