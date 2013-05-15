@@ -6,8 +6,8 @@ Observation API for App Kinetics
 
 The API is a REST API for applications to send data. It supports these calls:
 
- 1. POST `/api/1/databases/`***app-key***`/collections/`***data-type***`/` and
- 2. GET `/api/1/databases/`***app-key***`/collections/`***data-type***`/collect/`
+ 1. POST `/api/1/databases/app-key/collections/data-type/` and
+ 2. GET `/api/1/databases/app-key/collections/data-type/collect/`
 
 In the above, `app-key` and `data-type` are setup parameters. They are provided to the application owner when they sign up. They need to be kept secure. You will need separate keys for each of your instances, for example *development*, *QA*, *production*, etc.
 
