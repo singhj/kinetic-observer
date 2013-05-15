@@ -22,7 +22,7 @@ How to use the API
 ------------------
 
 An example file `app-kinetics.js` is available in the repository. **Include it in your project but first replace your-application-key and data-type fields** provided by us.
-Replace the `ak_get_user_id` function body with one that returns the user ID.
+Replace the `ak_get_user_id` function body with one that returns the user ID for your application.
 
 To monitor page loads, include these lines in your HTML files, immediately before or after your analytics snippet. 
 
