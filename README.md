@@ -18,6 +18,14 @@ Notes:
  4. Data from a server should be sent using the POST interface. `https` isn't always available when originating from the server and for extra security, a method of signing POST requests is available. Ask us about details.
  5. The API calls should be protected inside try/catch blocks so errors in the API don't affect your application's operation.
 
+API Usage Strategy
+------------------
+
+Review your application architecture for the type of data that needs to be collected. Typically Ajax calls are a good place to instrument.
+
+The instructions below apply for Ajax-oriented applications. For other types of applications, for example those that as based on page loads, collectors are available &mdash; contact us for those. If there is a need to collect server-based data, PHP-based collectors are also available.
+
+
 How to use the API
 ------------------
 
